@@ -36,16 +36,16 @@
 		{
 			if ($this->imc < 18.5) {
 				$this->color = "grey";
-				$mensaje = "Peso bajo";
+				$mensaje = "Peso Bajo  - Debes alimentarte";
 			} else if ($this->imc >= 18.5 && $this->imc < 25) {
 				$this->color = "green";
-				$mensaje = "Peso normal";
+				$mensaje = "Peso normal - Sigue con tu Alimentacion";
 			} else if ($this->imc >= 25 && $this->imc < 30) {
 				$this->color = "orange";
-				$mensaje = "Sobrepeso";
+				$mensaje = "Sobrepeso  - Debes ponerte en contro con un nutricionista";
 			} else {
 				$this->color = "red";
-				$mensaje = "Obeso";
+				$mensaje = "Obeso - Cuidado con el Covid";
 			}
 			return $mensaje;
 		}
