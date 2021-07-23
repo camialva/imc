@@ -72,7 +72,7 @@
                       </div>
                   <?php }
                   ?>
-                  <button class="btn waves-effect waves-light" type="submit" name="calcular">calcular
+                  <button class="btn waves-effect waves-light" type="submit" name="calcular">calcular el IMC
                     <i class="material-icons right">send</i>
                   </button>
                 </form>
@@ -83,9 +83,9 @@
                 <thead>
                   <tr>
                       <th>#</th>
-                      <th>Peso(kg)</th>
-                      <th>Altura(cm)</th>
-                      <th>IMC</th>
+                      <th>Peso de la Persona(kg)</th>
+                      <th>Altura de la Persona(cm)</th>
+                      <th>IMC (Indice de Masa Corporal)</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -116,7 +116,7 @@
                 <div class="card blue-grey darken-1">
                   <div class="card-content white-text">
                     <span class="card-title">Observación</span>
-                    <p>En esta tabla se muestra los registros de los usuarios que han usado la aplicación.</p>
+                    <p>En esta tabla se muestra los registros de los usuarios que han determinado su IMC.</p>
                   </div>
                 </div>
               </div>
